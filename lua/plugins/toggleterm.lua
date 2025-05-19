@@ -9,6 +9,9 @@ return {
         direction = 'float'
       }
     end,
+    keys = {
+      { "<leader>tr", "<cmd>ToggleTermSendCurrentLine<cr>" },
+    },
     lazy=false,
   }
 }
